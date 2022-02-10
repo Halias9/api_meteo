@@ -1,0 +1,81 @@
+body {
+background-image:url(https://cdn.pixabay.com/photo/2017/01/20/00/30/maldives-1993704_960_720.jpg);
+background-position: center;
+background-size: cover;
+}
+
+
+
+html {
+    margin-top: auto;
+    background-color: #87BBF0;
+    
+}
+
+h1 {
+    font-family: 'Comforter Brush', cursive;
+    text-align: center;
+}
+
+.container {
+background-image: url(https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_960_720.jpg);
+opacity: 0.4;
+}
+
+.input-group{
+    padding: 50px;
+    opacity: 0.6;
+    size-adjust: 30px;
+}
+
+input {
+    width: 40px;
+}
+
+footer {
+margin-top: 400px;
+background-color:#87BBF0;
+}
+#city {
+    background-color:skyblue;
+    opacity: 0.8;
+}
+#temp {
+  background-color:lightseagreen;
+  opacity: 0.8;
+}
+#humidity {
+    background-color:lightgreen;
+    opacity: 0.8;
+}
+#wind {
+    background-color: turquoise;
+    opacity: 0.8;
+}
+.boxcontainerweather {
+ position:center;
+    width: 300px;
+    height:  300px;
+    display : flex;
+    flex-wrap: wrap;
+}
+
+.box {
+width: 150px;
+height: 150px;
+display: flex;
+flex-direction : column;
+justify-content:center ;
+align-items: center;
+font-size:1.5rem;
+color:whitesmoke;
+text-shadow: 2px 1px 2px black;
+font-weight:bold;
+font-family: 'M PLUS 1 Code', sans-serif;
+}
+p {
+text-align: center;
+}
+h6 {
+    text-align: center;
+}
